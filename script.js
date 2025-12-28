@@ -46,7 +46,7 @@ const mango1 = new User({
  followers: 20,
 });
 
-mango.getInfo(); // User Mango is 2 years old and has 20 followers
+mango.getInfo(); 
 
 const poly1 = new User({
  name: 'Poly',
@@ -54,7 +54,7 @@ const poly1 = new User({
  followers: 17,
 });
 
-poly.getInfo(); // User Poly is 3 years old and has 17 followers
+poly.getInfo(); 
 
 // 3
 
@@ -120,13 +120,13 @@ class StringBuilder{
 const builder = new StringBuilder('.');
 
 builder.append('^');
-console.log(builder.value); // '.^'
+console.log(builder.value); 
 
 builder.prepend('^');
-console.log(builder.value); // '^.^'
+console.log(builder.value); 
 
 builder.pad('=');
-console.log(builder.value); // '=^.^='
+console.log(builder.value);
 
 // 5
 console.log("5 завдання");
